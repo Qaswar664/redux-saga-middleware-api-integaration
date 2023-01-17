@@ -22,15 +22,15 @@ function Main() {
         <div>
             <div className="container">
                 <div className="row m-3">
-                    {data.map((item, i) => (
-                        <div className="col-md-3 ">
+                    {data.map((item) => (
+                        <div className="col-md-3 " key={item.id}>
 
-                            <Card className="text-center text-dark mb-5 ">
+                            <Card className="text-center text-dark mb-5 " >
                                 <img className='mx-auto m-3' src={item.image} height="230" width="230" alt="Avatar" />
 
-                                <h5 className="mb-3 mt-2"> Title: {item.title}</h5>
-                                <h5 className="mb-5">Price: {item.price}</h5>
-                                <h5 className="mb-5">{item.category}</h5>
+                                <h5 className="mb-3 mt-2"> Name: {item.title}</h5>
+                                <h5 className="mb-5">Price: ${item.price}</h5>
+                                <h5 className="mb-5">Color::{item.category}</h5>
 
 
                                 <Button className='btn btn-primay' onClick={() => dispatch(addToCart(item))} >Add to Cart</Button>
