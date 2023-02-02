@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Qaswar664/redux-saga-middleware-api-integaration/static/css/main.42765d73.css",
+    "main.js": "/Qaswar664/redux-saga-middleware-api-integaration/static/js/main.2f584507.js",
+    "static/js/787.243b1e49.chunk.js": "/Qaswar664/redux-saga-middleware-api-integaration/static/js/787.243b1e49.chunk.js",
+    "index.html": "/Qaswar664/redux-saga-middleware-api-integaration/index.html",
+    "main.42765d73.css.map": "/Qaswar664/redux-saga-middleware-api-integaration/static/css/main.42765d73.css.map",
+    "main.2f584507.js.map": "/Qaswar664/redux-saga-middleware-api-integaration/static/js/main.2f584507.js.map",
+    "787.243b1e49.chunk.js.map": "/Qaswar664/redux-saga-middleware-api-integaration/static/js/787.243b1e49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42765d73.css",
+    "static/js/main.2f584507.js"
+  ]
+}
