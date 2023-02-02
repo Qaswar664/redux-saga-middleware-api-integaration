@@ -35,6 +35,42 @@
             "category":"mobile",
             "brand":"samsung",
             "photo":"https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
+        },
+        {
+            "id": 5,
+            "name": "samsung",
+            "color": "black",
+            "price": 12000,
+            "category": "mobile",
+            "brand": "samsung",
+            "photo": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "id": 6,
+            "name": "samsung",
+            "color": "black",
+            "price": 12000,
+            "category": "mobile",
+            "brand": "samsung",
+            "photo": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "id": 7,
+            "name": "shoes",
+            "color": "black",
+            "price": 1200,
+            "category": "shoes",
+            "brand": "bata",
+            "photo": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "id": 8,
+            "name": "samsung",
+            "color": "black",
+            "price": 12000,
+            "category": "mobile",
+            "brand": "samsung",
+            "photo": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
     ]
 }
