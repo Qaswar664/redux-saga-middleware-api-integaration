@@ -9,11 +9,12 @@ import Cart from './components/Cart';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/cart' element={<Cart />} />
       </Routes>
+      
     </div>
   );
 }

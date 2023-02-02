@@ -3,7 +3,7 @@ import { PRODUCT_LIST, SET_PRODUCT_LIST } from './constant';
 import { SEARCH_PRODUCT } from './constant';
 
 function* getProducts() {
-    let data = yield fetch('https://fakestoreapi.com/products');
+    let data = yield fetch('https://jsonplaceholder.typicode.com/posts');
     
     data = yield data.json();
     console.warn("action is called", data)
@@ -11,7 +11,7 @@ function* getProducts() {
 }
 
 function* searchProducts(data) {
-    let result = yield fetch(`https://fakestoreapi.com/products?q=${data.query}`);
+    let result = yield fetch(`https://jsonplaceholder.typicode.com/posts?q=${data.query}`);
     result = yield result.json();
     console.warn("search data", result)
     yield put({type: SET_PRODUCT_LIST, data:result})
